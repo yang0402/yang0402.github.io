@@ -10,27 +10,37 @@
 
 <body>
 	<div class="container">
-		<header>
-			<h1>滕洋</h1>
-			<p class="target">求职意向：网络安全相关岗位</p>
+		<header class="hero">
+			<div class="hero-main">
+				<h1>滕洋</h1>
+				<p class="target">求职意向：AIGC 算法/应用研发实习生</p>
+				<div class="tags">
+					<span>数字人</span>
+					<span>语音生成</span>
+					<span>图像/视频生成</span>
+					<span>模型工程化</span>
+				</div>
+			</div>
+			<div class="hero-photo">
+				<img src="profile-photo.svg" alt="滕洋个人证件照">
+			</div>
 		</header>
 
 		<section>
 			<h2>基本信息</h2>
-			<ul class="info-list">
+			<ul class="info-grid">
 				<li><span>性别：</span>男</li>
 				<li><span>出生日期：</span>2002 年 03 月 14 日</li>
-				<li><span>身高：</span>172cm</li>
-				<li><span>体重：</span>72kg</li>
 				<li><span>民族：</span>汉族</li>
 				<li><span>政治面貌：</span>共青团员</li>
 				<li><span>籍贯：</span>重庆合川</li>
+				<li><span>学历：</span>硕士在读</li>
 			</ul>
 		</section>
 
 		<section>
 			<h2>联系方式</h2>
-			<ul class="info-list">
+			<ul class="info-grid">
 				<li><span>电话：</span>15923178814</li>
 				<li><span>邮箱：</span>s240802028@stu.cqupt.edu.cn</li>
 				<li><span>地址：</span>重庆市南岸区崇文路 2 号重庆邮电大学</li>
@@ -40,17 +50,44 @@
 		<section>
 			<h2>教育背景</h2>
 			<ul>
-				<li>重庆邮电大学｜网络空间安全｜本科（2020 - 2024）</li>
-				<li>重庆邮电大学｜网络空间安全｜研究生（2024 - 2027）</li>
+				<li>重庆邮电大学｜网络空间安全｜本科（2020.09 - 2024.06）</li>
+				<li>重庆邮电大学｜网络空间安全｜硕士（2024.09 - 2027.06）</li>
 			</ul>
 		</section>
 
 		<section>
-			<h2>个人优势</h2>
+			<h2>实习经历</h2>
+			<div class="experience">
+				<h3>AIGC 算法/应用研发实习生（2025.01 - 2025.09）</h3>
+				<ul>
+					<li>参与数字人语音、图像、视频生成全链路研发，覆盖模型调研、方案验证、工程落地与上线支持。</li>
+					<li><strong>语音方向：</strong>完成 CosyVoice 复现与 GPT-SoVITS 本地部署评测，构建 8 类预设音色（普通话/粤语/英语/台语男女声）；在 2080 环境下将约 10s 音频的 SFT 推理速度较 zero-shot 提升约 0.5-0.8s。</li>
+					<li><strong>图像方向：</strong>完成 SDXL/SDXL-Lightning LoRA 训练与风格适配，推进 PULID → FaceFusion 迁移；支持 Torch → TensorRT 导出、Docker 容器化、云端部署与接口化改造，并参与 Triton/FastAPI/多线程并发优化。</li>
+					<li><strong>视频方向：</strong>完成节点视频生成与 image2image API 调研对比（含 FLUX.1-Kontext-dev），输出工作流分析及推理优化建议（模型量化、推理加速）。</li>
+					<li><strong>平台工程：</strong>参与日志体系完善与压测，修复 API 问题；沉淀多家云厂商 TTS/换脸/识别 API 调研结论，支撑技术选型与版本迭代。</li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<h2>获奖与荣誉</h2>
 			<ul>
-				<li>系统学习网络空间安全相关课程，具备扎实的专业基础。</li>
-				<li>具备良好的学习能力与团队协作意识，做事认真负责。</li>
-				<li>对网络安全技术保持持续关注，愿意在实践中不断提升能力。</li>
+				<li>2022 学年学业奖学金三等奖</li>
+				<li>2023 学年学业奖学金三等奖</li>
+				<li>重庆市区块链技术应用创新大赛本科组三等奖</li>
+				<li>英语四级证书</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>校园经历与综合素质</h2>
+			<ul>
+				<li>大一担任班级文体委员；大二、大三担任班级心理委员，获“优秀心理委员”。</li>
+				<li>大一参加新生辩论会并获“最佳辩手”。</li>
+				<li>参加“感恩母校助力高考力争上‘邮’”活动并获一等奖。</li>
+				<li>大二参加合唱比赛并获校级三等奖。</li>
+				<li>积极参与志愿活动，累计近百小时志愿服务。</li>
+				<li>大一至大三持续参与学院勤工助学。</li>
 			</ul>
 		</section>
 	</div>
