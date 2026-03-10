@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1305" height="224" viewBox="0 0 1305 224">
+  <rect width="1305" height="224" fill="#f3f5f7"/>
+  <rect x="88" y="4" width="1217" height="46" fill="#d9dfd0"/>
+  <text x="108" y="37" font-size="42" fill="#167f93" font-family="Microsoft YaHei, Arial">成绩、课程</text>
+
+  <circle cx="46" cy="137" r="7" fill="#000"/>
+  <text x="116" y="137" font-size="40" fill="#111" font-family="Microsoft YaHei, Arial">平均绩点排名：前 20%</text>
+
+  <circle cx="46" cy="188" r="28" fill="#188e98"/>
+  <text x="34" y="199" font-size="28" fill="#fff" font-family="Microsoft YaHei, Arial">✎</text>
+  <text x="116" y="190" font-size="40" fill="#111" font-family="Microsoft YaHei, Arial">主修课程：操作系统、数据结构、计算机网络、Linux 操作系统、密码学、网络安全、数据库概论、计算机组成原理</text>
+</svg>
