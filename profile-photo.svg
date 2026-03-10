@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="552" viewBox="0 0 414 552">
+  <rect width="414" height="552" fill="#66a6d9"/>
+  <circle cx="207" cy="170" r="78" fill="#e4c4a8"/>
+  <path d="M118 160c8-58 53-95 89-95s78 29 91 83c-15-8-31-12-50-12-34 0-66 11-96 24-16 7-28 7-34 0z" fill="#2a2a2a"/>
+  <path d="M108 315c21-45 57-67 99-67 42 0 78 22 99 67v237H108z" fill="#20242b"/>
+  <text x="207" y="520" text-anchor="middle" font-size="22" fill="#ffffff" font-family="Microsoft YaHei, Arial">请替换为本人证件照</text>
+</svg>
